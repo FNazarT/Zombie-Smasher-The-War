@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private ParticleSystem shootFX = default;
     private float horizontal, touchStartPositionX, touchEndPositionX;
     private readonly float x_Speed = 5f;
-    private readonly float z_Speed = 20f;
+    private readonly float z_Speed = 25f;
     private readonly float rotationSpeed = 10f;
     private readonly float maxAngle = 10f;
     private Rigidbody myBody;

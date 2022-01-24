@@ -104,11 +104,7 @@ public class UIManager : MonoBehaviour
         fieldAmount--;
         fieldAmountText.text = "x " + fieldAmount;
         PlayerPrefs.SetInt("Force Field", fieldAmount);
-
-        if (fieldAmount == 0)
-        {
-            forceFieldButton.interactable = false;
-        }
+        forceFieldButton.interactable = fieldAmount > 0;
     }
 
     //Called from ZombieScript script when player smashes a zombie
@@ -183,7 +179,7 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    //Called from AdManager Script after after the Unity Ad is finished
+    //Called from AdManager Script after the Unity Ad is finished
     public void ContinueAfterAd()
     {
         UIPanel.SetActive(true);

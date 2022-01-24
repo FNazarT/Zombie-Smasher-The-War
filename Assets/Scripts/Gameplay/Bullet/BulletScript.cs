@@ -6,7 +6,7 @@ public class BulletScript : MonoBehaviour
 
     private void OnEnable() 
     {
-        GetComponent<Rigidbody>().AddForce(Vector3.forward * 2000f);
+        GetComponent<Rigidbody>().AddForce(Vector3.forward * 500f, ForceMode.Impulse);
         Invoke(nameof(DeactivateGameObject), timer);
     }
 
