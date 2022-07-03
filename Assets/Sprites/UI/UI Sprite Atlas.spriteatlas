@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI Sprite Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: WebGL
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 29
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 14024dafed0b3ba4da3e991104d51435, type: 3}
+    - {fileID: 2800000, guid: d780bd108f8413a409efd7bfa6c470af, type: 3}
+    - {fileID: 2800000, guid: 4afadb9c645161a41a785802636e257e, type: 3}
+    - {fileID: 2800000, guid: a4cd82dea008e0049a5a44162eb05129, type: 3}
+    - {fileID: 2800000, guid: 991f8e1a72ca8234e89427642b392d0d, type: 3}
+    - {fileID: 2800000, guid: 15b5dfa7a72cddb4280f106746f473e9, type: 3}
+    - {fileID: 2800000, guid: d032024df2e396649800cd53ae29a9e7, type: 3}
+    - {fileID: 2800000, guid: f3f9b0b81f6669b4c92ece9d854302b2, type: 3}
+    - {fileID: 2800000, guid: d22ac712888b6e048b2768a75fc609e0, type: 3}
+    - {fileID: 2800000, guid: 9b043f697f873f84cb86fc3376592a71, type: 3}
+    - {fileID: 2800000, guid: aa170bac496f0a34db30c34bd7e237dc, type: 3}
+    - {fileID: 2800000, guid: f84b3316101ae004db76e9ea978ae405, type: 3}
+    - {fileID: 2800000, guid: 57f07ba288e830b449990d8bb085620e, type: 3}
+    - {fileID: 2800000, guid: 157c4b820764c5e4880286d229032ee6, type: 3}
+    - {fileID: 2800000, guid: 6576df11bee88a04b8267434e1bcb29a, type: 3}
+    - {fileID: 2800000, guid: d83c86ad07617244282c57ce0d747f45, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d780bd108f8413a409efd7bfa6c470af, type: 3}
+  - {fileID: 21300000, guid: 6576df11bee88a04b8267434e1bcb29a, type: 3}
+  - {fileID: 21300000, guid: d22ac712888b6e048b2768a75fc609e0, type: 3}
+  - {fileID: 21300000, guid: 157c4b820764c5e4880286d229032ee6, type: 3}
+  - {fileID: 21300000, guid: 57f07ba288e830b449990d8bb085620e, type: 3}
+  - {fileID: 21300000, guid: f84b3316101ae004db76e9ea978ae405, type: 3}
+  - {fileID: 21300000, guid: 15b5dfa7a72cddb4280f106746f473e9, type: 3}
+  - {fileID: 21300000, guid: f3f9b0b81f6669b4c92ece9d854302b2, type: 3}
+  - {fileID: 21300000, guid: 9b043f697f873f84cb86fc3376592a71, type: 3}
+  - {fileID: 21300000, guid: 991f8e1a72ca8234e89427642b392d0d, type: 3}
+  - {fileID: 21300000, guid: 4afadb9c645161a41a785802636e257e, type: 3}
+  - {fileID: 21300000, guid: aa170bac496f0a34db30c34bd7e237dc, type: 3}
+  - {fileID: 21300000, guid: d032024df2e396649800cd53ae29a9e7, type: 3}
+  - {fileID: 21300000, guid: d83c86ad07617244282c57ce0d747f45, type: 3}
+  - {fileID: 21300000, guid: a4cd82dea008e0049a5a44162eb05129, type: 3}
+  - {fileID: 21300000, guid: 14024dafed0b3ba4da3e991104d51435, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Bar_01
+  - Window_BG_2
+  - Health Icon
+  - Text_Label
+  - Shoot Icon
+  - Ribbon_01
+  - Bar_Slot
+  - Button_BG_round
+  - Icon_skull
+  - Bar_Slot 2
+  - Bar_02
+  - Icon_timer
+  - Button_BG
+  - Window_Field_02
+  - Bar_04
+  - Zombie Icon
+  m_RenderDataMap: {}
+  m_Tag: UI Sprite Atlas
+  m_IsVariant: 0

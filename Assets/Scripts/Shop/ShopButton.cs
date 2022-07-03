@@ -7,19 +7,25 @@ public class ShopButton : MonoBehaviour
 
     private Button button;
 
-    void Start()
+    private void Awake()
     {
         button = GetComponent<Button>();
-        button.onClick.AddListener(HandleClick);
+        button.interactable = false;
     }
 
-    void OnDestroy()
+    private void OnDestroy()
     {
         button.onClick.RemoveAllListeners();
     }
 
+    public void ActivateButton()
+    {
+        button.onClick.AddListener(HandleClick);
+        button.interactable = true;
+    }
+
     public void HandleClick()
     {
-        AdManager.instance.RewardedAdShop(itemNameText.text);
+        AdManager.instance.ShowAdShop(itemNameText.text);
     }
 }

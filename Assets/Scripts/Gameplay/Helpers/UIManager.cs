@@ -150,7 +150,7 @@ public class UIManager : MonoBehaviour
         Time.timeScale = 0f;
 
         //Evaluate if player can continue. If accepted, no more chances to continue
-        if (tryAgain)
+        if (tryAgain && Application.platform != RuntimePlatform.WebGLPlayer)
         {
             continueWithAdPanel.SetActive(true);
             tryAgain = false;
@@ -222,7 +222,7 @@ public class UIManager : MonoBehaviour
     public void DidContinueWithAd()
     {
         continueWithAdPanel.SetActive(false);
-        AdManager.instance.RewardedAdGamePlay();
+        AdManager.instance.ShowAdGameplay();
     }
 
     public void DidNotContinueWithAd()

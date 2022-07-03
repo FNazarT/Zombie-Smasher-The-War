@@ -30,6 +30,10 @@ public class InventoryPanel : MonoBehaviour
 
     private void Update()
     {
+        if (Application.platform == RuntimePlatform.WebGLPlayer)
+        {
+            return;
+        }
         lifeButton.interactable = lifeAmount != 2;
         shootEnergyButton.interactable = shootAmount != 2;
         forceFieldButton.interactable = fieldAmount != 2;
